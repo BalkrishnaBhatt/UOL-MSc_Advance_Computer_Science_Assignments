@@ -1,0 +1,163 @@
+Problem:    
+Rows:       71
+Columns:    60
+Non-zeros:  204
+Status:     OPTIMAL
+Objective:  obj = 36 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 r.4          B              5                          12 
+     2 r.5          B              7                          12 
+     3 r.6          B              2                          12 
+     4 r.7          NU            12                          12             1 
+     5 r.8          B              4                          12 
+     6 r.9          NU            12                          12             1 
+     7 r.10         B              5                          12 
+     8 r.11         B              2                          12 
+     9 r.12         B              8                          12 
+    10 r.13         B              5                          12 
+    11 r.14         B             10                          12 
+    12 r.15         NU            12                          12             1 
+    13 r.16         B             10                          12 
+    14 r.17         B              7                          12 
+    15 r.18         B              2                          12 
+    16 r.19         NS             0             0             =         < eps
+    17 r.20         NS             0             0             =         < eps
+    18 r.21         NS             0             0             =            -2 
+    19 r.22         NS             0             0             =            -3 
+    20 r.23         NS             0             0             =         < eps
+    21 r.24         NS             0             0             =            -1 
+    22 r.25         NS             0             0             =            -2 
+    23 r.26         NS             0             0             =            -3 
+    24 r.27         NS             0             0             =         < eps
+    25 r.28         NS             0             0             =         < eps
+    26 r.29         NS             0             0             =             1 
+    27 r.30         NS             0             0             =             1 
+    28 r.31         NS             0             0             =         < eps
+    29 r.32         NS             0             0             =         < eps
+    30 r.33         NS             0             0             =            -2 
+    31 r.34         NS             0             0             =            -3 
+    32 r.35         NS             0             0             =            -1 
+    33 r.36         NS             0             0             =            -1 
+    34 r.37         NS             0             0             =            -3 
+    35 r.38         NS             0             0             =            -4 
+    36 r.39         NS             0             0             =            -1 
+    37 r.40         NS             0             0             =            -1 
+    38 r.41         NS             0             0             =            -3 
+    39 r.42         NS             0             0             =            -4 
+    40 r.43         NS             0             0             =         < eps
+    41 r.44         NS             0             0             =             2 
+    42 r.45         NS             0             0             =             3 
+    43 r.46         NS             0             0             =         < eps
+    44 r.47         NS             0             0             =            -1 
+    45 r.48         NS             0             0             =            -1 
+    46 r.49         NS             0             0             =         < eps
+    47 r.50         NS             0             0             =            -1 
+    48 r.51         NS             0             0             =            -1 
+    49 r.52         NS             0             0             =         < eps
+    50 r.53         NS             0             0             =             2 
+    51 r.54         NS             0             0             =             3 
+    52 r.55         NS             0             0             =             1 
+    53 r.56         NS             0             0             =             1 
+    54 r.57         NS             0             0             =             1 
+    55 r.58         NS             0             0             =             1 
+    56 r.59         B              5             0               
+    57 r.60         B              0             0               
+    58 r.61         B             10             0               
+    59 r.62         B              0             0               
+    60 r.63         B              0             0               
+    61 r.64         B              0             0               
+    62 r.65         B              5             0               
+    63 r.66         B              0             0               
+    64 r.67         B              4             0               
+    65 r.68         B              0             0               
+    66 r.69         B              8             0               
+    67 r.70         B              0             0               
+    68 r.71         B              0             0               
+    69 r.72         B              0             0               
+    70 r.73         B              4             0               
+    71 r.74         B              0             0               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x14          B              0             0               
+     2 y14          B              7             0               
+     3 x15          B              0             0               
+     4 y15          B              2             0               
+     5 a1           B              5             0               
+     6 b1           B              0             0               
+     7 x1           B              0             0               
+     8 y1           B              0             0               
+     9 a2           B              0             0               
+    10 b2           NL             0             0                          -1 
+    11 x2           B              0             0               
+    12 y2           B              7             0               
+    13 a3           NL             0             0                          -1 
+    14 b3           NL             0             0                       < eps
+    15 x3           NL             0             0                          -3 
+    16 y3           B              2             0               
+    17 a4           B              4             0               
+    18 b4           B              8             0               
+    19 x4           B              0             0               
+    20 y4           B              0             0               
+    21 a5           B              4             0               
+    22 b5           B              0             0               
+    23 x5           B              0             0               
+    24 y5           B              0             0               
+    25 a6           B              5             0               
+    26 b6           B              0             0               
+    27 x6           B              0             0               
+    28 y6           B              7             0               
+    29 a7           NL             0             0                          -1 
+    30 b7           B              0             0               
+    31 x7           NL             0             0                          -3 
+    32 y7           B              5             0               
+    33 a8           NL             0             0                          -1 
+    34 b8           NL             0             0                          -1 
+    35 x8           NL             0             0                          -3 
+    36 y8           B              2             0               
+    37 a9           B              0             0               
+    38 b9           B              8             0               
+    39 x9           B              0             0               
+    40 y9           B              0             0               
+    41 a10          B              5             0               
+    42 b10          B              0             0               
+    43 x10          NL             0             0                          -3 
+    44 y10          NL             0             0                          -4 
+    45 a11          B              0             0               
+    46 b11          B             10             0               
+    47 x11          NL             0             0                          -3 
+    48 y11          NL             0             0                          -4 
+    49 a12          B              0             0               
+    50 b12          B             10             0               
+    51 x12          B              0             0               
+    52 y12          B              2             0               
+    53 a13          B              0             0               
+    54 b13          B             10             0               
+    55 x13          B              0             0               
+    56 y13          B              0             0               
+    57 a14          NL             0             0                          -1 
+    58 b14          NL             0             0                          -1 
+    59 a15          NL             0             0                          -1 
+    60 b15          NL             0             0                          -1 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
